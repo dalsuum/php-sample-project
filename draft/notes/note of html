@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+</head>
+<body>
+    <header>This is header </header>
+    <hgroup>
+            <h1>Maing Heading</h1>
+            <h2>Minor Heading</h2>
+            <h3>Secondary Heading</h3>
+    </hgroup>
+    <main>
+        <h3>This is main</h3>
+    </main>
+    <nav>This is nva at left side</nav>
+    <selection>
+        <header>This is small header</header>
+        <article>
+            <p>This is article</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ex perspiciatis quod exercitationem sed ipsa omnis. Iusto natus voluptates eos cumque quo corporis impedit in eaque. Porro praesentium distinctio earum?</p>
+        </article>
+        <footer>This is samll footer</footer>
+    </selection>    
+    <aside>This is aside at right side</aside>
+    <footer>This is footer
+        <p>Copyright &copy; DalCinSuum &trade;</p>
+        <ul>
+            <li>&copy;</li>
+            <li>&trade;</li>
+            <li>&reg;</li>
+            <li>&euro;</li>
+            <li>&larr;</li>
+            <li>&uarr;</li>
+            <li>&rarr;</li>
+            <li>&darr;</li>
+            <li>&crarr;</li>
+            <li>&lAarr;</li>
+            <li>&rAarr;</li>
+            <li>&laquo;</li>
+            <li>&raquo;</li>
+            l<li>&nbsp;</li>
+        </ul>
+    </footer>
+
+    <div>
+        <h3>Table1</h3>
+        <table border='2' width="50%">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Alice</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Bob</td>
+                <td>23</td>
+            </tr>
+        </table>
+   </div>
+  <div>
+      <h3>Table2</h3>
+    <table border="2" width=50%>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+               
+                
+            </tr>
+        </thead>
+        <tbody>
+                <tr>
+                    <td>1</td>    
+                    <td>Simon</td>
+                    <td>28</td>
+                    
+                </tr>
+                <tr>
+                    <td>2</td>    
+                    <td>Peter</td>
+                    <td>29</td>
+                </tr>
+               
+            
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="2" align="right">Total</th>
+                <td>2</td>
+            </tr>
+
+        </tfoot>
+    </table>
+  </div>  
+
+
+  /*<td rowspan align="center">Remark</td> */
+
+    
+
+    <!-- Descendant selector -->
+    <!-- <p>Browser List</p>
+    <p class="browser" id="popular">Google Chrome</p>
+    <p class="browser"> Mozilla Firefox</p>
+    <input type="text">
+    <input type="submit">
+
+    <ul>
+        <li>Server</li>
+        <li>
+            Browser <ol>
+                <li>Chrome</li>
+                <li>Firefox</li>
+            </ol>
+        </li>
+    </ul> -->
+
+    <!-- Pseudo code, Child Selector -->
+    <!-- <a href="#one">Link One</a>
+    <a href="#two">Link Two</a>
+
+    <ul>
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+        <li>Item Four</li>
+        <li>Item Five</li>
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+        <li>Item Four</li>
+        <li>Item Five</li>
+    </ul> -->
+
+    <!-- CSS Display -->
+
+    <!-- <div>A block </div>
+    <div>Another block</div>
+    <span>Some Content</span>
+    <span>More Content</span> -->
+    <!-- <div class="wrap">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+    </div> -->
+
+<!-- CSS Box Model -->
+<!-- <div class="wrap">
+    <div class="box1">Box One</div>
+    <div calss="box2">Box Two</div>
+</div> -->
+
+<!-- CSS Position -->
+<!-- <div class="box1"></div>
+<div class="box2"></div>
+<div class="box3"></div> -->
+
+<!-- <h1>Pure CSS Star Shape</h1>
+<p>
+  <i class="star"></i>
+  <i class="star"></i>
+  <i class="star"></i>
+</p> -->
+
+
+<!--     
+        <p>This is manual layout</p>
+        <section>
+        <nav></nav>
+        <main></main>
+        <aside></aside>
+    </section>
+
+    <p>Hello</p>
+    <div>
+        <ol>
+            <li>
+                <img src="#" alt="Image">
+            </li>
+            <li>
+                <Audio>This is Audio</Audio>
+            </li>
+            <li>
+                <video src="#">This is Video</video>
+            </li>
+            <li>
+                <map name="This is map">My map</map>
+            </li>
+        </ol>
+        <code>
+            <p></p>
+        </code>
+               
+
+    </div> -->
+<!-- demo of countainer and container-fluid
+    <div class="container bg-primary h-50 mb-4"></div>
+
+    <div class="container-fluid h-50 bg-success"></div> -->
+
+    <!-- <h3>Grid system</h3>
+
+    <div class="row">
+        <div class="col-12"></div>
+    </div>
+    <div class="row">
+        <div class="col-6"></div>
+        <div class="col-6"></div>
+    </div>
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4"></div>
+        <div class="col-4"></div>
+    </div> -->
+<!-- 
+    col is default full colum
+    col-md is medium and work as tablet
+    col-lg is large and work as pc  -->
+
+    <!-- <main class="bg-secondary py-5">
+        <div class="container bg-light">
+            <div class="bg-light" style="height: 400px"></div>
+        </div>
+    </main>
+    <section class="container py-5">
+        <div class="row g-5">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="bg-secondary" style="height: 200px"> </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="bg-secondary" style="height: 200px;"></div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="bg-secondary" style="height: 200px;"></div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="bg-secondary" style="height: 200px;"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="border-top border-top-2 py-5 text-center text-muted">
+            &copy; Copyright 2020
+        </div>
+    </footer> -->
+<!-- 
+    <p class="
+                border
+                border-5
+                border-top-2
+                border-primary
+                rounded-pill
+                p-3
+    ">
+        Some content
+    </p>
+
+    <p class="bg-danger
+                
+             text-white
+             bg-gradient
+             p-5       
+    ">
+        Some Content
+    </p>
+    <p class="bg-warning
+             bg-primary
+                
+             text-dark-50
+             bg-gradient
+             p-5       
+    ">
+        Some Content
+    </p>
+
+    <p class="
+        d-inline
+        d-md-block">
+        Some Content
+    </p>
+    <div class="d-flex flex-colum flex-md-row">
+        <div class="bg-primary p-5"></div>
+        <div class="bg-primary p-5 flex-fill"></div>
+        <div class="bg-success p-5"></div>
+    </div> -->
+
+ 
+    
+    <!-- <div class="bg-warning p-4 clearfix">
+        <h1 class="float-md-left">Some Title</h1>
+        <h2 class="float-md-right">Some sub-title</h2>
+       </div>
+
+       <div style="height: 300px" class="bg-dark p-2">
+        <div class="h-50 w-50 bg-light"></div>
+       </div> -->
+
+       <!-- <div class="position-relative bg-dark" style="height: 200px">
+        <div class="position-absolute
+        bg-light top-50 left-50
+        w-25 h-50
+        translate-middle"></div>
+       </div> -->
+
+       <button class="btn btn-primary position-relative">
+        Goto User List
+        <span class="badge
+        bg-danger
+        position-absolute
+        top-0
+        left-100
+        translate-middle
+        rounded-pill">20</span>
+       </button>
+
+       <div class="border p-4 mb-4 bg-light shadow-sm">
+        Some Content
+       </div>
+       <div class="border p-4 mb-4 bg-light shadow">
+        Some Content
+       </div>
+       <div class="border p-4 mb-4 bg-light shadow-lg">
+        Some Content
+       </div>
+
+       <i class="fas fa-camera"></i>
+<i class="far fa-user"></i>
+<i class="fab fa-github"></i>
+<ul class="list-group">
+    <li class="list-group-item">
+    <i class="far fa-square mr-3"></i>
+    Something todo
+    <i class="fas fa-trash float-right text-danger"></i>
+    </li>
+    <li class="list-group-item">
+    <i class="fas fa-check mr-3"></i>
+    Another thing to do
+    <i class="fas fa-trash float-right text-danger"></i>
+    </li>
+    <li class="list-group-item">
+    <i class="fas fa-check mr-3"></i>
+    More thing to do
+    <i class="fas fa-trash float-right text-danger"></i>
+    </li>
+   </ul>
+
+   <ul class="nav nav-tabs">
+    <li class="nav-item">
+    <a href="#" class="nav-link active">
+    <i class="fas fa-list"></i> All Users
+    </a>
+    </li>
+    <li class="nav-item">
+    <a href="#" class="nav-link">
+    <i class="fas fa-users"></i> New Users
+    </a>
+    </li>
+    <li class="nav-item">
+    <a href="#" class="nav-link">
+    <i class="fas fa-user"></i> My Profile
+    </a>
+    </li>
+   </ul>
+
+   <form>
+    <div class="mb-2">
+    <label><i class="fas fa-user mr-2"></i> User Name</label>
+    <input type="text" class="form-control">
+    </div>
+    <div class="mb-2">
+    <label><i class="fas fa-envelope mr-2"></i> Email</label>
+    <input type="text" class="form-control">
+    </div>
+    <div class="mb-2">
+    <label><i class="fas fa-key mr-2"></i> Password</label>
+    <input type="password" class="form-control">
+    </div>
+   
+    <button class="btn btn-primary">
+    <i class="fas fa-paper-plane mr-2"></i> Register
+    </button>
+   </form>
+
+   <table class="table table-bordered table-striped">
+    <tr>
+    <th><i class="fas fa-hashtag"></i> ID</th>
+    <th><i class="fas fa-bug"></i> Issue</th>
+    <th><i class="fas fa-calendar"></i> Date</th>
+    <th><i class="fas fa-sort-amount-down"></i> Level</th>
+    <th><i class="fas fa-user"></i> Assign</th>
+    </tr>
+    <tr>
+    <td>1</td>
+    <td>A problem with something</td>
+    <td>2020-08-11</td>
+    <td><span class="badge bg-danger">critical</span></td>
+    <td>Alice</td>
+    </tr>
+    <tr>
+    <td>2</td>
+    <td>Another problem with ...</td>
+    <td>2020-08-12</td>
+    <td><span class="badge bg-warning">important</span></td>
+    <td>Bob</td>
+    </tr>
+   </table>
+
+</body>
+</html>
